@@ -1,4 +1,4 @@
-const nombre = prompt('Bienvenido a la página de Proyectos Di&Bere. Para continuar con la carga de datos puede dar click en la opción ACEPTAR o CANCELAR en caso de no seguir con el procedimiento. Ingrese su nombre:');
+const nombre = prompt('Bienvenido a la página de Proyectos Di&Bere. Ingrese su nombre:');
 const apellido = prompt('Ingrese su apellido:');
 let localidad = prompt('Ingrese su localidad:');
 let celular = parseInt (prompt('Ingrese su número de celular (sin puntos):'));
@@ -22,3 +22,5 @@ alert(`Bienvenido a la base de datos de Proyectos Di&Bere. La información ingre
 
 //CONCATENAR TODOS LOS DATOS PARA QUE ESTEN EN UNA SOLA LINEA:s
 //let resultado = nombre + " " + apellido + " " + edad + " " + nacimiento + " ";
+// OPCIONAL PARA INGRESAR LUEGO:
+//Para continuar con la carga de datos puede dar click en la opción ACEPTAR o CANCELAR en caso de no seguir con el procedimiento.
