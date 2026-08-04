@@ -2,10 +2,10 @@ const nombre = prompt('Bienvenido a la página de Proyectos Di&Bere. Ingrese su 
 const apellido = prompt('Ingrese su apellido:');
 let localidad = prompt('Ingrese su localidad:');
 let celular = parseInt (prompt('Ingrese su número de celular (sin puntos):'));
-let nacimiento = parseInt (prompt('Ingrese su año de nacimiento (sin puntos):'));
-let edadactual = parseInt (prompt('Ingrese el año actual para calcular su edad (sin puntos):'));
-const nombrecompleto = nombre + ' ' + apellido;
-edadactual= 2026 - nacimiento;
+const nacimiento = parseInt (prompt('Ingrese su año de nacimiento (sin puntos):'));
+const añoactual = parseInt (prompt('Ingrese el año actual para calcular su edad (sin puntos):'));
+const nombrecompleto = nombre + " " + apellido;
+const edadactual= añoactual - nacimiento;
 console.log(nombrecompleto);
 console.log(localidad);
 console.log(celular);
